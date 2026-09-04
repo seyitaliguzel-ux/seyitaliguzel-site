@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Seyit Ali Güzel — İç Mimar ve Tasarımcı" />
+    <title>Seyit Ali Güzel — İç Mimar ve Tasarımcı</title>
+    <style>
+      :root {
+        --paper: #f7f7f4;
+        --ink: #171716;
+        --muted: #6a6a65;
+        --line: #d7d7d1;
+      }
+
+      * { box-sizing: border-box; }
+
+      html, body { min-height: 100%; }
+
+      body {
+        margin: 0;
+        background: var(--paper);
+        color: var(--ink);
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      main {
+        min-height: 100svh;
+        padding: 28px 32px 30px;
+        display: flex;
+        flex-direction: column;
+      }
+
+      header, footer {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 24px;
+        border-top: 1px solid var(--line);
+        padding-top: 11px;
+        font-size: 12px;
+        line-height: 1.25;
+        letter-spacing: .015em;
+      }
+
+      .name {
+        display: block;
+        font-size: 13px;
+        font-weight: 700;
+      }
+
+      .role, .place { color: var(--muted); }
+
+      .role {
+        text-align: right;
+      }
+
+      .status {
+        margin: 22px 0 0;
+        color: var(--muted);
+        font-size: 12px;
+        line-height: 1.4;
+      }
+
+      footer { margin-top: auto; }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+        border-bottom: 1px solid #a2a29b;
+        padding-bottom: 2px;
+      }
+
+      a:hover { border-bottom-color: var(--ink); }
+
+      @media (max-width: 560px) {
+        main { padding: 20px 20px 22px; }
+        header, footer { font-size: 11px; }
+        .name { font-size: 12px; }
+        footer { align-items: flex-end; flex-direction: column; gap: 10px; }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div>
+          <span class="name">Seyit Ali Güzel</span>
+          <p class="status">Web sitesi hazırlık aşamasındadır.</p>
+        </div>
+        <span class="role">Interior Architect &amp; Designer</span>
+      </header>
+
+      <footer>
+        <a href="mailto:info@seyitaliguzel.com">info@seyitaliguzel.com</a>
+        <span class="place">Ankara, Türkiye</span>
+      </footer>
+    </main>
+  </body>
+</html>
